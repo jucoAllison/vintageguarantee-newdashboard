@@ -1,0 +1,66 @@
+.flexSection {
+    width: 100%;
+    display: flex;
+  }
+  .LoginFormCover {
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(red, yellow); */
+    /* display: none; */
+    position: relative;
+    /* overflow: hidden; */
+    /* top: 0px; */
+    /* z-index: 1000; */
+    /* left: 0px; */
+    background: linear-gradient(180.04deg, #df74ad -41.5%, #b4d0e1 99.96%);
+  }
+  .relative {
+    position: relative;
+    display: flex;
+    width: 100%;
+    overflow-y: hidden;
+    flex-direction: column;
+    height: 100%;
+  }
+  .semiLogo {
+    position: absolute;
+    width: 600px;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .Loading{
+      position: absolute;
+      fill: #fff;
+      width: 30px;
+  }
+  .rightLogo {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translate(-50px, -50%);
+    /* margin: auto 0px auto auto; */
+  }
+  
+  .topRightLogo {
+    width: 770px;
+    position: absolute;
+    right: -200px;
+    transform: rotate(90deg);
+    top: 30px;
+  }
+  
+  .leftLogo {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 200px;
+    transform: translate(-50px, -50%);
+  }
+  .topLeftLogo {
+    width: 200px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  

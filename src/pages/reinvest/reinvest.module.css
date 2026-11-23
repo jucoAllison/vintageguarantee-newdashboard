@@ -1,0 +1,169 @@
+.breadcrumb{
+    list-style: none;
+    margin: 0px;
+    padding: 10px 30px 10px 30px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    background-color: transparent;
+    letter-spacing: 0.7px;
+    display: flex;
+    border-radius: 4px;
+    flex-wrap: wrap;
+}
+.breadcrumb_item{
+    margin-bottom: 0px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: .585rem;
+    font-family: "Avenir Next W01","Proxima Nova W01","Rubik",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.breadcrumb_item a{
+    color: #3E4B5B;
+    text-decoration: none;
+}
+.breadcrumb_item span{
+    color: rgba(0,0,0,0.4);
+}
+.breadcrumb_item:nth-child(2)::before{
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #636c72;
+    content: "/";
+}
+.breadcrumb_item:nth-child(3)::before{
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #636c72;
+    content: "/";
+}
+
+.gridBoxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+.pageCover{
+    padding: 1.3em;
+    box-sizing: border-box;
+  }
+
+.flexTwo{
+    display: flex;
+    margin-top: 40px;
+}
+
+.element_wrapper{
+    padding-bottom: 3rem;
+}
+
+.element_box{
+    min-height: 445px;
+    padding: 1rem 1.5rem;
+    box-shadow: 0px 2px 4px rgb(126 142 177 / 12%);
+    padding: 1rem 1.5rem;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.form_header{
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+    display: block;
+}
+
+.form_desc{
+    color: #999;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+    font-size: .9rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    display: block;
+}
+
+.col_form_label{
+    padding-top: calc(.375rem + 2px);
+    padding-bottom: calc(.375rem + 2px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+}
+
+.form_group{
+    margin-bottom: 1rem;
+}
+
+
+.form_control{
+    font-weight: 300;
+    font-family: "Avenir Next W01","Proxima Nova W01","Rubik",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: .9rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #dde2ec;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,-webkit-box-shadow 0.15s ease-in-out;
+}
+
+.form_buttons_w{
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.btn_success{
+    font-family: "Avenir Next W01","Proxima Nova W01","Rubik",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 400;
+    outline: none;
+    line-height: 1;
+    color: #fff;
+    background-color: #24b314;
+    border-color: #24b314;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 2px solid transparent;
+    padding: .375rem .75rem;
+    font-size: .9rem;
+    border-radius: 4px;
+}
+.headerBold{
+    position: absolute;
+    font-weight: bold;
+    top: 20px;
+    right: 20px;
+}
+.btn_success:disabled{
+    background-color: #24b31444;
+    border-color: #24b31444;    
+}
+
+.msgCoverContain{
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: rgb(230, 82, 82);
+  }
+
+/* Brand refresh: presentation only */
+
+.breadcrumb{padding:13px var(--space);border-color:var(--line);gap:0;background:#f5fbfb}.breadcrumb_item{font-size:11px;letter-spacing:.02em;text-transform:none}.breadcrumb_item a{color:var(--brand-strong)}.breadcrumb_item span{color:var(--muted);font-weight:650}.pageCover{padding:var(--space);min-width:0;max-width:100%}.pageCover>*{min-width:0}
+
+
+
+/* Brand refresh: presentation only */
+
+.gridBoxes{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.flexTwo{display:flex;gap:18px;margin-top:24px}.flexTwo>div:first-child{flex:1;min-width:0;max-width:760px;margin-right:0!important}.flexTwo>div:empty{display:none}.element_wrapper{padding-bottom:18px}.element_box{min-width:0;min-height:0!important;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(16px,3vw,28px)}.form_header{font-size:20px;font-weight:700;color:var(--brand-deep)}.form_desc{color:var(--muted);font-weight:400;line-height:1.6;border-color:var(--line)}.form_control{min-height:44px;border:1px solid var(--line);border-radius:9px;background:#fff;font-weight:400}.btn_success{background:var(--brand-strong);border-color:var(--brand-strong);border-radius:9px;min-height:44px;padding:10px 18px;font-weight:650;white-space:normal}.headerBold{color:var(--brand-strong);overflow-wrap:anywhere}.msgCoverContain{overflow-wrap:anywhere}@media(max-width:560px){.gridBoxes{grid-template-columns:minmax(0,1fr)}.flexTwo{display:block}.btn_success{width:100%}}
+

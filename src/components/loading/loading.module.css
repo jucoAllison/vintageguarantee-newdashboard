@@ -1,0 +1,14 @@
+.loadingSVG{
+    animation: 1.5s linear infinite spinner;
+    will-change: transform;
+    animation-play-state: inherit;
+}
+
+@keyframes spinner {
+    0% {
+      transform: translate3d(-50%, -50%, 0) rotate(0deg);
+    }
+    100% {
+      transform: translate3d(-50%, -50%, 0) rotate(360deg);
+    }
+  }

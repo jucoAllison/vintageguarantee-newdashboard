@@ -1,0 +1,340 @@
+.breadcrumb{
+    list-style: none;
+    margin: 0px;
+    padding: 10px 30px 10px 30px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    background-color: transparent;
+    letter-spacing: 0.7px;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 4px;
+    flex-wrap: wrap;
+}
+.breadcrumb_item{
+    margin-bottom: 0px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: .585rem;
+    font-family: "Avenir Next W01","Proxima Nova W01","Rubik",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.breadcrumb_item a{
+    color: #3E4B5B;
+    text-decoration: none;
+}
+.breadcrumb_item span{
+    color: rgba(0,0,0,0.4);
+}
+.breadcrumb_item:nth-child(2)::before{
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #636c72;
+    content: "/";
+}
+.breadcrumb_item:nth-child(3)::before{
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #636c72;
+    content: "/";
+}
+.flexTheBTN{
+    display: flex !important;
+    width: 300px;
+}
+.gridBoxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+.pageCover{
+    padding: 1.3em;
+    margin-right: -10px;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    grid-gap: 20px;
+    box-sizing: border-box;
+  }
+
+.first{
+    background-color: #fff !important;
+    border-radius: 6px;
+    height: max-content;
+    box-shadow: 0px 2px 4px rgb(126 142 177 / 12%);
+    width: 100% !important;
+}
+.up_head_w{
+    position: relative;
+    width: 100%;
+    background-image: url(../../assets/profile2.png);
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    border-radius: 6px 6px 0px 0px;
+    height: 200px;
+}
+.up_social{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    z-index: 5;
+    display: flex;
+}
+.second{
+    width: 100% !important;
+}
+.nameContain{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+.full_name{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+.username{
+    font-size: 13px;
+    font-weight: 300;
+    padding-top: 8px;
+}
+
+.converTwo{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.statusCover{
+    display: flex;
+    width: max-content;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.online{
+    background-color: #24b314;
+    padding: .1em .3em;
+    margin-left: 5px;
+    box-sizing: border-box;
+    color: #fff;
+    height: max-content;
+    border-radius: 10rem;
+}
+
+.logout{
+    display: flex;
+    background-color: #e65252;
+    color: #fff;
+    font-size: 13px;
+    padding:  .5em;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.up_contents{
+    border-top: 1px solid rgba(0,0,0,0.05);
+    padding: 20px 5%;
+}
+
+.m_b{
+    margin-bottom: 1rem;
+}
+
+.row_m_b{
+    margin-bottom: 1rem;
+    display: flex !important;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.col_sm_6{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.el_tablo{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 1rem 10px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.value{
+    font-size: 2.43rem;
+    font-weight: 500;
+    font-family: "Avenir Next W01","Proxima Nova W01","Rubik",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.label{
+    display: block;
+    font-size: .63rem;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.4);
+    letter-spacing: 1px;
+}
+
+.padded{
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+}
+
+.text_muted{
+    font-weight: 300;
+    color: #636c72 !important;
+    font-size: 80%;
+}
+
+@media (max-width: 720px){
+    .pageCover{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+/* 
+.user_profile{
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgb(126 142 177 / 12%);
+    background-color: #fff;
+}
+.up_head_w{
+    position: relative;
+    color: #fff;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.up_social{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    z-index: 5;
+}
+
+.up_main_info{
+    padding-top: 35%;
+    padding: 20% 5% 5% 5%;
+    position: relative;
+    z-index: 4;
+    box-sizing: border-box;
+}
+.up_header{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px 3px rgb(0 0 0 / 60%);
+    color: #fff;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    display: inline-block;
+}
+.up_sub_header{
+    font-size: .81rem;
+    text-shadow: 0px 2px 4px rgb(0 0 0 / 40%);
+    color: rgba(255,255,255,0.8);
+}
+
+.decor{
+    position: absolute;
+    bottom: -1px;
+    right: 0px;
+    max-width: 100%;
+    z-index: 3;
+}
+.up_controls{
+    padding: 20px 5%;
+}
+.row{
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+    display: flex;
+}
+
+.col_sm_6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.value_pair{
+    display: inline-block;
+}
+.label{
+    color: rgba(0,0,0,0.4);
+    font-size: .63rem;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.badge_pill{
+    display: inline-block;
+    font-size: .63rem;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #24b314;
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    padding: .25em .4em;
+}
+
+.btn_danger{
+    font-family: "Avenir Next W01","Proxima Nova W01","Rubik",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 400;
+    outline: none;
+    line-height: 1;
+    padding: .25rem .5rem;
+    font-size: .775rem;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #e65252;
+    border-color: #e65252;
+}
+
+.secondSide{
+    width: 100px;
+    background-color: #fff;
+} */
+
+
+
+
+
+
+
+/* Brand refresh: presentation only */
+
+.breadcrumb{padding:13px var(--space);border-color:var(--line);gap:0;background:#f5fbfb}.breadcrumb_item{font-size:11px;letter-spacing:.02em;text-transform:none}.breadcrumb_item a{color:var(--brand-strong)}.breadcrumb_item span{color:var(--muted);font-weight:650}.pageCover{padding:var(--space);min-width:0;max-width:100%}.pageCover>*{min-width:0}
+
+
+
+/* Brand refresh: presentation only */
+
+.pageCover{margin:0;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:18px}.first{background:var(--surface)!important;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}.up_head_w{background-image:linear-gradient(135deg,#073b48ee,#00778abf),url(../../assets/profile2.png);border-radius:15px 15px 0 0;height:190px}.nameContain{left:18px;right:18px;overflow-wrap:anywhere}.full_name{font-size:21px}.converTwo{flex-wrap:wrap;gap:10px;padding:15px}.row_m_b{margin-left:0;margin-right:0}.col_sm_6{min-width:0;overflow-wrap:anywhere}.value{font-size:clamp(16px,2vw,24px);color:var(--brand-deep);overflow-wrap:anywhere}.label{color:var(--muted)}.logout{border-radius:8px}.second{min-width:0}@media(max-width:900px){.pageCover{grid-template-columns:minmax(0,1fr)}}
+

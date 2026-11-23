@@ -1,0 +1,118 @@
+.element_wrapper{
+    padding-bottom: 3rem;
+}
+.element_box{
+    padding: 1.5rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgb(126 142 177 / 12%);
+}
+
+.element_info{
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+       /* border-bottom: 1px solid rgba(0,0,0,0.1); */
+}
+
+.element_info_with_icon{
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+
+}
+.element_info_icon{
+    flex: 0 0 70px;
+    color: #24262d;
+    font-size: 30px;
+}
+.element_inner_header{
+    margin-bottom: 0.5rem;
+    margin-top: 0px;
+    display: block;
+} 
+.element_inner_desc{
+    color: #999;
+    font-weight: 300;
+    font-size: .81rem;
+    display: block;
+}
+.form_group{
+    margin-bottom: 1rem;
+}
+.form_group label{
+    font-size: 12px;
+}
+.form_control{
+    font-weight: 300;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    box-sizing: border-box;
+    font-size: .9rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #dde2ec;
+    border-radius: 4px;
+}
+
+.row{
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+    display: flex;
+
+}
+
+.col_sm_6{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.help_block{
+    font-weight: 300;
+    font-size: .81rem;
+    color: #636c72 !important;
+    display: block;
+    margin-top: .25rem;
+}
+.form_buttons_w{
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.btn_primary{
+    color: #fff;
+    background-color: #24262d;
+    border-color: #24262d;
+    font-family: "Avenir Next W01","Proxima Nova W01","Rubik",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 400;
+    outline: none;
+    line-height: 1;
+    user-select: none;
+    border: 2px solid transparent;
+    padding: .375rem .75rem;
+    font-size: .9rem;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+.errorMsg{
+    font-weight: 300;
+    font-size: 13px;
+    color: red;
+}
+
+/* Brand refresh: presentation only */
+
+.element_box{padding:clamp(15px,3vw,26px);border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);box-shadow:var(--shadow);min-width:0}.element_info{margin-bottom:20px}.element_info_icon{color:var(--brand-strong);flex-basis:45px}.element_inner_header{font-size:19px;font-weight:700;color:var(--brand-deep)}.element_inner_desc,.help_block{color:var(--muted)!important;font-weight:400}.form_group label{font-weight:600}.form_control{min-height:44px;border:1px solid var(--line);border-radius:9px;font-weight:400}.btn_primary{background:var(--brand-strong);border-color:var(--brand-strong);border-radius:9px;min-height:44px;padding:10px 16px;white-space:normal}.col_sm_6{min-width:0}@media(max-width:560px){.col_sm_6{flex:0 0 100%;max-width:100%}.btn_primary{width:100%}}
+

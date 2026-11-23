@@ -1,0 +1,26 @@
+.element_header{
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 1;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.element_header::after{
+    content: "";
+    background-color: #24262d;
+    width: 25px;
+    height: 4px;
+    border-radius: 0px;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0px;
+}
+
+/* Brand refresh: presentation only */
+
+.element_header{font-size:clamp(19px,2vw,26px);font-weight:750;letter-spacing:-.035em;color:var(--brand-deep);border-color:var(--line);margin:0 0 22px;padding:14px 0}.element_header::after{width:42px;height:3px;border-radius:4px;background:linear-gradient(90deg,var(--brand),var(--brand) 80%,var(--accent) 80%)}
+

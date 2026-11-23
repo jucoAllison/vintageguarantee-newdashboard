@@ -1,0 +1,88 @@
+.bg {
+  background-color: #302d2d;
+  padding: 0.6em;
+  color: #fff;
+}
+.coverRow {
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+  box-sizing: border-box;
+  background-color: rgb(37, 37, 37);
+  display: grid;
+  grid-template-columns: 0.8fr 0.5fr 0.3fr;
+}
+
+.box {
+  border: 1px solid #e2dcdc;
+  background-color: #d3d3d3;
+  margin-top: 1em;
+  width: 100%;
+  margin-bottom: 1em;
+  overflow: hidden;
+}
+.insideBox {
+  width: 100%;
+}
+.box p {
+  padding-left: 1em;
+}
+.bg {
+  background-color: #302d2d;
+  padding: 0.6em;
+  color: #fff;
+}
+/* .coverRow{
+    width: 100%;
+    color: #fff;
+    padding: 1em;
+    box-sizing: border-box;
+    background-color: rgb(37, 37, 37);
+    display: grid;
+    grid-template-columns: .8fr .5fr .3fr;
+} */
+
+.noProducts {
+  background-color: #e9eaf9;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7f7f7f;
+  margin-top: 100px;
+}
+
+.statusCoverHERE {
+  /* background-color: #0c5a5647;
+    color: #0c5a56; */
+  border-radius: 0.2rem;
+  width: max-content;
+  text-transform: uppercase;
+  height: 20px !important;
+  place-items: center;
+  padding: 1px 9px;
+  font-size: 10px;
+  font-weight: bold;
+  border-left: none !important;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+}
+
+@media (max-width: 600px) {
+  .box {
+    overflow-x: scroll;
+  }
+  .insideBox {
+    width: 500px;
+    /* overflow-x: scroll; */
+  }
+}
+
+
+/* Brand refresh: presentation only */
+
+.box{border:1px solid var(--line);border-radius:12px;background:var(--surface);overflow-x:auto;max-width:100%;box-shadow:var(--shadow)}.insideBox{min-width:500px;width:100%}.bg,.coverRow{background:var(--brand-deep);color:#fff}.noProducts{background:#dff2f4;color:var(--muted);margin-top:24px;border-radius:12px;min-height:70px;height:auto;padding:15px}.statusCoverHERE{border-radius:6px;height:auto!important;max-width:100%;white-space:normal}
+
+.coverRow{min-width:500px;gap:8px;align-items:center}.coverRow>div{min-width:0;overflow-wrap:anywhere}.coverRow[style*="transparent"]>div{padding-top:10px;padding-bottom:10px;border-bottom:1px solid var(--line)}

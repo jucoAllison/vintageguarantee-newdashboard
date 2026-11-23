@@ -1,0 +1,47 @@
+.eachBoxCover{
+    width: 100%;
+    background-color: #fff;
+    transition: all 0.25s ease;
+    text-decoration: none;
+    display: block;
+    color: #3E4B5B;
+    box-sizing: border-box;
+    height: 120px;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgb(126 142 177 / 12%);
+}
+
+.eachBoxCover:hover{
+        margin-top: -5px;
+}
+.eachBoxCover:hover .label{
+    color: #3395fc;
+}
+.eachBoxCover:hover .value{
+    color: #3395fc;
+}
+.label{
+    display: block;
+    font-size: .63rem;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.4);
+    letter-spacing: 1px;
+}
+
+.value{
+    transition: all 0.25s ease;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Avenir Next W01","Proxima Nova W01","Rubik",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Brand refresh: presentation only */
+
+.eachBoxCover{min-width:0;min-height:126px;height:auto;padding:20px;border:1px solid var(--line);border-top:3px solid var(--brand);border-radius:var(--radius);background:linear-gradient(145deg,#f9fdfd,#dff3f5);box-shadow:var(--shadow);cursor:default;display:flex;flex-direction:column;justify-content:center;gap:12px}.eachBoxCover:hover{margin-top:0;transform:translateY(-2px)}.label{color:var(--muted);font-size:11px;font-weight:700;letter-spacing:.045em;overflow-wrap:anywhere}.value{font:750 clamp(19px,2.6vw,32px)/1.2 Inter,system-ui,sans-serif;letter-spacing:-.035em;color:var(--brand-deep);overflow-wrap:anywhere;font-variant-numeric:tabular-nums}.eachBoxCover:hover .value,.eachBoxCover:hover .label{color:var(--brand-strong)}
+

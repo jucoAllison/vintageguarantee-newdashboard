@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f4f8 !important;
+overflow-x: hidden;
+  color: #3E4B5B;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+
+iframe{
+  border-width: 0 !important;
+}
+
+/* Brand refresh: presentation only */
+
+:root{--brand:#01aac1;--brand-strong:#00778a;--brand-deep:#073b48;--brand-dark:#092e39;--accent:#f10000;--canvas:#eaf4f5;--surface:#f9fdfd;--ink:#153640;--muted:#526d74;--line:#cfe2e5;--shadow:0 8px 24px rgba(8,63,76,.08);--radius:16px;--space:clamp(12px,2.4vw,32px)}
+body{background:var(--canvas)!important;color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:14px;line-height:1.55}
+*,*::before,*::after{box-sizing:border-box} #root{min-width:0;min-height:100vh} img,iframe{max-width:100%} button,input,select,textarea{font:inherit} button,select{max-width:100%} button{cursor:pointer} button:disabled{cursor:not-allowed;opacity:.55} a{color:var(--brand-strong)} a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #01aac1;outline-offset:3px} input:not([type=checkbox]):not([type=radio]),select,textarea{max-width:100%;min-width:0;border-radius:9px;border-color:var(--line);color:var(--ink)} .react-loading-skeleton{max-width:100%;margin-right:0!important} .ant-modal{max-width:calc(100vw - 24px)} .ant-modal-content{border-radius:var(--radius)!important} .ant-btn-primary{background:var(--brand-strong)!important;border-color:var(--brand-strong)!important} .ant-table-wrapper{max-width:100%;overflow-x:auto} @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation-duration:.01ms!important}}
+
+/* Existing language selector, outside React root. */
+body > div[style*="margin-top: -30px"]{margin-top:0!important;display:flex!important;flex-direction:row!important;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:8px;padding:8px var(--space);background:var(--brand-dark);color:white} body > div[style*="margin-top: -30px"] > select{margin-left:0!important;min-height:34px;padding:3px 8px;background:#f9fdfd} body > div[style*="margin-top: -30px"] > div{display:flex;gap:4px;flex-wrap:wrap} .container{max-width:100%}
